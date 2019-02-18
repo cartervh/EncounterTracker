@@ -1,0 +1,9 @@
+.highlight {
+  opacity: 1;
+  transition: opacity .025s ease-in;
+}
+.highlight:hover,
+.highlight:focus {
+  opacity: .5;
+  transition: opacity .025s ease-in;
+}

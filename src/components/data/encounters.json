@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Big Monster Encounter 1",
+    "CR": "4",
+    "index": "1",
+    "description": "Man this is a big monster I mean just absolutely massive"
+  },
+  {
+    "title": "Big Monster Encounter 2",
+    "CR": "40",
+    "index": "2",
+    "description": "Man this is a big monster I mean just absolutely massive just a big ole dude just an absolute unit just a wreck it ralph kind of guy"
+  },
+  {
+    "title": "Small Monster Encounter",
+    "CR": "5",
+    "index": "3",
+    "description": "Man this is a big monster I mean just absolutely massive"
+  },
+  {
+    "title": "Medium Monster Encounter",
+    "CR": "14",
+    "index": "4",
+    "description": "Man this is a big monster I mean just absolutely massive"
+  },
+  {
+    "title": "Dragon",
+    "CR": "12",
+    "index": "5",
+    "description": "Man this is a big monster I mean just absolutely massive"
+  },
+  {
+    "title": "Xanathar",
+    "CR": "3",
+    "index": "6",
+    "description": "Man this is a big monster I mean just absolutely massive"
+  },
+  {
+    "title": "Rust Monster",
+    "CR": "7",
+    "index": "7",
+    "description": "Man this is a big monster I mean just absolutely massive"
+  },
+  {
+    "title": "Gelatinous Cube",
+    "CR": "69",
+    "index": "8",
+    "description": "Man this is a big monster I mean just absolutely massive"
+  },
+  {
+    "title": "Weed Monster",
+    "CR": "420",
+    "index": "9",
+    "description": "Man this is a big monster I mean just absolutely massive"
+  },
+  {
+    "title": "Gazebo",
+    "CR": "123",
+    "index": "10",
+    "description": "Man this is a big monster I mean just absolutely massive"
+  }
+]
