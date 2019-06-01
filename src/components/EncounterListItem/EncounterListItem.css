@@ -1,9 +1,11 @@
 .highlight {
-  opacity: 1;
-  transition: opacity .025s ease-in;
+  background-color: #f9f9f9;
 }
 .highlight:hover,
 .highlight:focus {
-  opacity: .5;
-  transition: opacity .025s ease-in;
+  background-color: #d8d8d8;
+}
+
+.infoText {
+	margin-block-end: 0px;
 }

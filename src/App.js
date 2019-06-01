@@ -4,14 +4,25 @@ import EncounterList from './components/EncounterList/EncounterList';
 import InfoBlock from './components/InfoBlock/InfoBlock';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App flex">
-      	<EncounterList />
-      	<InfoBlock />
-      </div>
-    );
-  }
+	constructor() {
+		super();
+		this.state = {
+			selEncounterID: 0
+		};
+	}
+
+	onEncounterClick = (event, id) => {
+		this.setState({selEncounterID: id});
+	}
+
+	render() {
+		return (
+			<div className="App flex">
+				<EncounterList itemClickFunc = {this.onEncounterClick}/>
+				<InfoBlock encounterID={this.state.selEncounterID}/>
+			</div>
+		);
+	}
 }
 
 export default App;

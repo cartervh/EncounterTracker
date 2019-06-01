@@ -2,14 +2,15 @@ import React from 'react';
 
 class LongText extends React.Component {
 	render() {
-		const text = this.props.text;
-		const limit = this.props.limit;
-		const cls = this.props.cls;
-
-		if (text.length <= limit) {
-			return (<p className={cls}>{text}</p>);
+		const {text, limit, cls} = this.props;
+		if (text) {
+			if (text.length <= limit) {
+				return (<p className={cls}>{text}</p>);
+			} else {
+				return (<p className={cls}>{text.substring(0, limit) + '...'}</p>);
+			}
 		} else {
-			return (<p className={cls}>{text.substring(0, limit)}</p>);
+			return (<p></p>);
 		}
 	}
 }
